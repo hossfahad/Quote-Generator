@@ -1,0 +1,49 @@
+
+
+$normal-img:"http://interfacelift.com/wallpaper/De3cbf64/04132_yosemiteonfire_2880x1800.jpg";
+$blurred-img:"https://i.imgur.com/XAjijKr.jpg;
+
+
+* {
+	display: 0px;
+	background-position: center;
+	background-image: url(https://i.imgur.com/XAjijKr.jpg);
+	overflow: hidden;
+	
+}
+
+
+body {
+	margin-top: 50px;
+	width: 80%;
+	height: 300px;
+	margin: auto;
+	padding: 15px;
+	border: 7px solid white;
+	text-align: center;
+	background-image:url($blurred-img);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.titlehead {
+	color: #FFFFFF;
+	font-family: Roboto, sans-serif;
+	font-size: 30px;
+	padding: 2px;
+	position: relative;
+}
+
+#quoteDisplay {
+	color: #eeeeee;
+}
+
+#reset {
+	margin: 30px;
+	color: #fff;
+	text-decoration: none;
+	border: none;
+	font-family: Open Sans, sans-serif;
+
+}
